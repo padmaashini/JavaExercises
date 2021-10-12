@@ -23,6 +23,17 @@ public class Main {
         YearsAndDays.printYearsAndDays(525_600);
         YearsAndDays.printYearsAndDays(561_600);
 
+        //Test EqualityPrinter Class
+        EqualityPrinter.printEqual(1, 1, 1);
+        EqualityPrinter.printEqual(1, 1, 2);
+        EqualityPrinter.printEqual(1, 2, 3);
+
+        //Test PlayingCat Class
+        boolean isCatPlaying = PlayingCat.isCatPlaying(true, 10);
+        System.out.println(isCatPlaying);
+
+        isCatPlaying = PlayingCat.isCatPlaying(false, 35);
+        System.out.println(isCatPlaying);
 
 
         //Test FeetAndInchesToCentimeters Class
