@@ -1,7 +1,36 @@
 package com.company;
 
+import java.awt.geom.Area;
+
 public class Main {
     public static void main(String[] args) {
+
+        //Test SecondsAndMinutesChallenge Class
+        String time = SecondsAndMinutesChallenge.getDurationString(62, 21);
+        System.out.println(time);
+
+        time = SecondsAndMinutesChallenge.getDurationString(200);
+        System.out.println(time);
+
+        //Test AreaCalculator Class
+        double areaOfCircle = AreaCalculator.area(2.3);
+        System.out.println("Area of circle of radius 2.3: " + areaOfCircle);
+
+        double areaOfRectangle = AreaCalculator.area(2.0, 4.9);
+        System.out.println("Area of rectangle with length 2.0 and width 4.9: " + areaOfRectangle);
+
+        //Test YearsAndDays Class
+        YearsAndDays.printYearsAndDays(525_600);
+        YearsAndDays.printYearsAndDays(561_600);
+
+
+
+        //Test FeetAndInchesToCentimeters Class
+//        double centimeters = FeetAndInchesToCentimeters.calcFeetAndInchesToCentimeters(6, 0);
+//        System.out.println("6 ft 0 inches = " + centimeters);
+//
+//        centimeters = FeetAndInchesToCentimeters.calcFeetAndInchesToCentimeters(156);
+//        System.out.println("6 inches = " + centimeters);
         
 //        //Test ScoreCalculator Class
 //        boolean gameOver = true;
@@ -89,22 +118,22 @@ public class Main {
 //
 //        isEqualSumChecker = EqualSumChecker.hasEqualSum(1, -1, 0);
 //        System.out.println("1 + -1 = 0 -->" + isEqualSumChecker);
-
-        //Testing TeenNumberChecker Class
-        boolean hasTeen = TeenNumberChecker.hasTeen(9, 99, 19);
-        System.out.println("9, 99, 19: hasTeen --> " + hasTeen );
-
-        hasTeen = TeenNumberChecker.hasTeen(23, 15, 42);
-        System.out.println("23, 15, 42: hasTeen --> " + hasTeen );
-
-        hasTeen = TeenNumberChecker.hasTeen(22, 23, 34);
-        System.out.println("22, 23, 34: hasTeen --> " + hasTeen );
-
-        boolean isTeen = TeenNumberChecker.isTeen(9);
-        System.out.println("9: isTeen --> " + isTeen );
-
-        isTeen = TeenNumberChecker.isTeen(13);
-        System.out.println("13: isTeen --> " + isTeen );
+//
+//        //Testing TeenNumberChecker Class
+//        boolean hasTeen = TeenNumberChecker.hasTeen(9, 99, 19);
+//        System.out.println("9, 99, 19: hasTeen --> " + hasTeen );
+//
+//        hasTeen = TeenNumberChecker.hasTeen(23, 15, 42);
+//        System.out.println("23, 15, 42: hasTeen --> " + hasTeen );
+//
+//        hasTeen = TeenNumberChecker.hasTeen(22, 23, 34);
+//        System.out.println("22, 23, 34: hasTeen --> " + hasTeen );
+//
+//        boolean isTeen = TeenNumberChecker.isTeen(9);
+//        System.out.println("9: isTeen --> " + isTeen );
+//
+//        isTeen = TeenNumberChecker.isTeen(13);
+//        System.out.println("13: isTeen --> " + isTeen );
 
     }
 }
