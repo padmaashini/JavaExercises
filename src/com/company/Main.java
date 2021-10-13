@@ -35,6 +35,10 @@ public class Main {
         isCatPlaying = PlayingCat.isCatPlaying(false, 35);
         System.out.println(isCatPlaying);
 
+        //Test DayOfTheWeek Class
+        //switch statements
+        DayOfTheWeek.printDayOfTheWeek(9);
+
 
         //Test FeetAndInchesToCentimeters Class
 //        double centimeters = FeetAndInchesToCentimeters.calcFeetAndInchesToCentimeters(6, 0);
