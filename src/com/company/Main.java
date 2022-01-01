@@ -1,43 +1,58 @@
 package com.company;
 
 import java.awt.geom.Area;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        //Test SecondsAndMinutesChallenge Class
-        String time = SecondsAndMinutesChallenge.getDurationString(62, 21);
-        System.out.println(time);
+//        Scanner scanner = new Scanner(System.in);
+//        Boolean hasNextInt = scanner.hasNextInt();
+//        System.out.println(hasNextInt);
 
-        time = SecondsAndMinutesChallenge.getDurationString(200);
-        System.out.println(time);
+        //Test ReadingUserInput
+        ReadingUserInput.readInput();
 
-        //Test AreaCalculator Class
-        double areaOfCircle = AreaCalculator.area(2.3);
-        System.out.println("Area of circle of radius 2.3: " + areaOfCircle);
+//        //Test NumberToWords Class
+//        NumberToWords.numberToWords(10);
+//
+//        //Test LargestPrime
+//        int largestPrime = LargestPrime.getLargestPrime(12);
+//        System.out.println("Largest Prime of 12: " + largestPrime);
 
-        double areaOfRectangle = AreaCalculator.area(2.0, 4.9);
-        System.out.println("Area of rectangle with length 2.0 and width 4.9: " + areaOfRectangle);
-
-        //Test YearsAndDays Class
-        YearsAndDays.printYearsAndDays(525_600);
-        YearsAndDays.printYearsAndDays(561_600);
-
-        //Test EqualityPrinter Class
-        EqualityPrinter.printEqual(1, 1, 1);
-        EqualityPrinter.printEqual(1, 1, 2);
-        EqualityPrinter.printEqual(1, 2, 3);
-
-        //Test PlayingCat Class
-        boolean isCatPlaying = PlayingCat.isCatPlaying(true, 10);
-        System.out.println(isCatPlaying);
-
-        isCatPlaying = PlayingCat.isCatPlaying(false, 35);
-        System.out.println(isCatPlaying);
-
-        //Test DayOfTheWeek Class
-        //switch statements
-        DayOfTheWeek.printDayOfTheWeek(9);
+//        //Test SecondsAndMinutesChallenge Class
+//        String time = SecondsAndMinutesChallenge.getDurationString(62, 21);
+//        System.out.println(time);
+//
+//        time = SecondsAndMinutesChallenge.getDurationString(200);
+//        System.out.println(time);
+//
+//        //Test AreaCalculator Class
+//        double areaOfCircle = AreaCalculator.area(2.3);
+//        System.out.println("Area of circle of radius 2.3: " + areaOfCircle);
+//
+//        double areaOfRectangle = AreaCalculator.area(2.0, 4.9);
+//        System.out.println("Area of rectangle with length 2.0 and width 4.9: " + areaOfRectangle);
+//
+//        //Test YearsAndDays Class
+//        YearsAndDays.printYearsAndDays(525_600);
+//        YearsAndDays.printYearsAndDays(561_600);
+//
+//        //Test EqualityPrinter Class
+//        EqualityPrinter.printEqual(1, 1, 1);
+//        EqualityPrinter.printEqual(1, 1, 2);
+//        EqualityPrinter.printEqual(1, 2, 3);
+//
+//        //Test PlayingCat Class
+//        boolean isCatPlaying = PlayingCat.isCatPlaying(true, 10);
+//        System.out.println(isCatPlaying);
+//
+//        isCatPlaying = PlayingCat.isCatPlaying(false, 35);
+//        System.out.println(isCatPlaying);
+//
+//        //Test DayOfTheWeek Class
+//        //switch statements
+//        DayOfTheWeek.printDayOfTheWeek(9);
 
 
         //Test FeetAndInchesToCentimeters Class
